@@ -23,6 +23,8 @@
     self.scrollView.delegate = self;
     self.webView.scrollView.delegate = self;
     self.webView.scrollView.scrollEnabled = NO;
+    
+    NSLog(@"gitHub1111111111111111");
 }
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView {
     if (scrollView == self.scrollView) {
